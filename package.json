@@ -1,18 +1,19 @@
 {
-  "name": "WebSocketTest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon ./server/app.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ws": "^8.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
-  }
+   "name": "simple-web-socket-group-chat-app",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "node ./server/app.js",
+      "dev": "nodemon ./server/app.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "ws": "^8.2.1"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.12"
+   }
 }

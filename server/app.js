@@ -19,7 +19,6 @@ socketServer.on("connection", socket => {
       try {
          msg = JSON.parse(msg.toString());
          socket.name = msg.name;
-         console.log(msg.name);
       } catch {
          users.forEach(user => {
             if (user != socket) {
@@ -31,7 +30,6 @@ socketServer.on("connection", socket => {
                );
             }
          });
-         console.log(msg.toString());
       }
    });
 });
